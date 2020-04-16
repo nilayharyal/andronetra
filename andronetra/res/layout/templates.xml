@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:id="@+id/LinearLayout01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+ <LinearLayout android:id="@+id/LinearLayout02" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+     <TextView android:id="@+id/textView0" android:text="0" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText9"></EditText>
+     <TextView android:id="@+id/textView1" android:text="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText1"></EditText>
+     <TextView android:id="@+id/textView2" android:text="2" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText2"></EditText>
+     <TextView android:id="@+id/textView3" android:text="3" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText3"></EditText>
+     <TextView android:id="@+id/textView4" android:text="4" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText4"></EditText>
+     <TextView android:id="@+id/textView5" android:text="5" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText5"></EditText>
+     <TextView android:id="@+id/textView6" android:text="6" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText6"></EditText>
+     <TextView android:id="@+id/textView7" android:text="7" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText7"></EditText>
+     <TextView android:id="@+id/textView8" android:text="8" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText8"></EditText>
+     <TextView android:id="@+id/textView9" android:text="9" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+     <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText0"></EditText>
+     <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Done"></Button>
+ </LinearLayout>
+</ScrollView>
+</LinearLayout>
